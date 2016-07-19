@@ -116,7 +116,7 @@ address span{
   padding: 5px 98px 5px 30px;
   display: inline-block;
 }
-.company_details,.education_details,.advertisement_details {
+.company_details,.education_details,.advertisement_details{
 	padding:1.5em 0 0em 2em;
 }
 .company_details h4,.education_details h4,.advertisement_details h4{
@@ -126,7 +126,7 @@ address span{
 	margin-bottom:6px;
 	font-family: 'Varela Round', sans-serif;
 }
-.company_details h4 span,.education_details h4 span{
+.company_details h4 span,.education_details h4 span,.advertisement_details h4 span{
 	font-size: 0.65em;
   margin-left: 5px;
   color: #999;
@@ -172,6 +172,12 @@ address span{
 	color:#333;
 }
 .education  h3{
+  background: #999;
+  color: #FFF;
+  padding: 5px 190px 5px 30px;
+  display: inline-block;
+}
+.suggestion h3{
   background: #999;
   color: #FFF;
   padding: 5px 190px 5px 30px;
